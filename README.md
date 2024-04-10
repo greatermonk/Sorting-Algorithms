@@ -11,6 +11,7 @@ A) Selection sort:
 
 *Selection sort works by finding the smallest element in the list and moving it to the front of the list. This process is repeated until the entire list is sorted. Selection sort is more efficient than bubble sort for large data sets, but it is still not as efficient as some other sorting algorithms.
 
+
 SELECTION SORT COMPLEXITY
 
 *Best Case Time Complexity: O(n^2):- *
@@ -29,6 +30,9 @@ In all cases, the time complexity of selection sort is O(n^2), making it ineffic
 
 CONCLUSION:-
 It's important to note that while selection sort has its applications, it is generally not recommended for sorting large data sets due to its inefficient time complexity compared to more advanced sorting algorithms like merge sort, quicksort, or other O(n log n) algorithms. However, its simplicity and in-place nature can make it a viable choice in certain scenarios, particularly when dealing with small data sets or when there are specific memory or learning constraints.
+
+
+
 
 
 
@@ -56,6 +60,7 @@ Applications of Merge Sort:-
 
 unsorted data.
 
+
 Advantages Of Merge Sort:-
 
 1)Stability: Merge sort is a stable sorting algorithm, which means it maintains the relative order of equal elements in the input array.
@@ -68,7 +73,8 @@ Advantages Of Merge Sort:-
 
 
 
-BUBBLE SORT
+BUBBLE SORT:-
+
 Bubble Sort is the simplest sorting algorithm that works by repeatedly swapping the adjacent elements if they are in the wrong order. This algorithm is not suitable for large data sets as its average and worst-case time complexity is quite high.
 
 
@@ -104,7 +110,10 @@ Example: It is used in a polygon filling algorithm, where bounding lines are sor
 
 
 
-QUICK SORT
+
+
+QUICK SORT:-
+
 QuickSort is a sorting algorithm based on the Divide and Conquer algorithm that picks an element as a pivot and partitions the given array around the picked pivot by placing the pivot in its correct position in the sorted array.
 
 
@@ -117,6 +126,7 @@ Partition is done recursively on each side of the pivot after the pivot is place
 
 
 Algorithm:-
+
 Choose Pivot: Select a pivot element from the array. There are various strategies for choosing the pivot, such as selecting the first, last, middle, or a random element.
 
 Partitioning: Rearrange the elements of the array so that all elements less than the pivot come before it, and all elements greater than the pivot come after it. After this partitioning, the pivot is in its final sorted position.
@@ -127,7 +137,10 @@ Combine: No explicit combining step is needed, as the sorting is done in place t
 
 
 
+
+
 Complexity Analysis Of Quick Sort:-
+
 Time Complexity:-
 
 In the average case, Quick Sort has a time complexity of O(n log n). This is because the partitioning step divides the array into roughly equal halves, and each partitioning step takes linear time.
